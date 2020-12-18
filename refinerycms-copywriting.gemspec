@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.require_paths     = %w(lib)
   s.files             = Dir['lib/**/*', 'config/**/*', 'app/**/*', 'db/**/*', 'spec/**/*', 'features/**/*']
 
-  s.add_dependency    'refinerycms-core', '~> 3.0.0'
+  s.add_dependency    'refinerycms-core', '~> 4.0.0'
   s.add_dependency    'decorators',        '~> 2.0.0'
   s.add_dependency    'globalize',         '~> 5.0'
 end

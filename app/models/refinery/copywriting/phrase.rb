@@ -2,7 +2,7 @@ module Refinery
   module Copywriting
     class Phrase < Refinery::Core::BaseModel
 
-      belongs_to :page, :class_name => 'Refinery::Page'
+      belongs_to :page, class_name: 'Refinery::Page', optional: true
       translates :value if self.respond_to?(:translates)
       validates :name, :presence => true
 
